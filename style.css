@@ -1,0 +1,473 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+html {
+    font-size: 20px;
+}
+
+body {
+    background-color: #f9f9f9;
+    scroll-behavior: smooth;
+}
+
+
+/****************HEADER****************/
+
+.carousel-indicators {
+    transform: rotate(90deg);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: 10px;
+    right: 10px;
+    left: auto;
+    width: auto;
+    z-index: 2;
+}
+
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+
+
+
+}
+
+
+.carousel-inner img {
+    height: 100vh;
+
+}
+
+
+
+/********NAVBAR**********/
+
+.dropdown-menu {
+    z-index: 20;
+}
+
+.navbar {
+    position: absolute;
+    z-index: 2;
+    padding: 2% 7%;
+    width: 100%;
+}
+
+.navbar-light {
+    background-color: red;
+}
+
+.navbar .navbar-brand {
+    color: #fff;
+}
+
+.my-navbar {
+    background-color: transparent;
+    width: 100%;
+}
+
+.navbar .navbar-brand {
+    font-size: 170%;
+    margin: 5px 15px;
+}
+
+.navbar .navbar-nav .nav-item .nav-link {
+    font-size: 80%;
+}
+
+
+.navbar .my-btn {
+    font-size: 80%;
+
+    background-color: #4bbf10;
+    border-radius: 20px;
+    margin: 6px;
+    width: 140px;
+    border: none;
+    color: #fff;
+}
+
+.navbar .my-btn:hover {
+    background-color: #45af0f;
+}
+
+
+.jumbotron {
+    position: absolute;
+    top: 30%;
+    z-index: 1;
+    background: transparent;
+    color: #fff;
+    padding: 0 9%;
+
+}
+
+.jumbotron a {
+    display: inline-block;
+    text-align: center;
+    font-size: 150%;
+    color: #fff;
+    height: 50px;
+    width: 50px;
+    border: 1px solid #fff;
+    border-radius: 100%;
+    margin-right: 10px;
+}
+
+.jumbotron a:hover {
+    text-decoration: none;
+    color: darkgreen;
+}
+
+.jumbotron p {
+    padding-top: 6%;
+}
+
+.jumbotron h6 {
+    padding-top: 8%;
+}
+
+.jumbotron i {
+    font-size: 100%;
+}
+
+.heading {
+    text-align: center;
+    color: dimgrey;
+}
+
+
+/***********8*SECTION OFFERS***********/
+
+.section-offers {
+    padding: 8% 10%;
+}
+
+.box-offer {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.box-offer-left {
+    margin: 9%;
+}
+
+.offer {
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.offer i {
+    font-size: 200%;
+    padding: 10px;
+    margin: 0 10px;
+}
+
+.offer p {
+    font-size: 70%;
+}
+
+.logo-offer {
+    height: 400px;
+    width: 400px;
+    border-radius: 100%;
+}
+
+.offer1 {
+    position: relative;
+    left: -130px;
+    color: green;
+}
+
+.offer2 {
+    color: orange;
+    position: relative;
+    left: -50px;
+}
+
+.offer3 {
+    color: purple;
+    position: relative;
+    left: -20px;
+}
+
+.offer4 {
+    color: blue;
+    position: relative;
+    left: -50px;
+}
+
+.offer5 {
+    color: red;
+    position: relative;
+    left: -130px;
+}
+
+
+.trees {
+    height: 60px;
+    float: right;
+}
+
+
+
+
+
+
+/****************SECTION STATS****************/
+
+.section-stats {
+
+    text-align: center;
+    padding: 8% 10%;
+}
+
+.section-stats i {
+    font-size: 400%;
+}
+
+.section-stats .box {
+    margin-top: 4%;
+}
+.section-stats .box h1 {
+   color: dimgray;
+    font-size: 200%;
+}
+
+.paragraph {
+    margin-top: 4%;
+    text-align: center;
+    color: dimgrey
+}
+
+.box .col-md-3 div {
+    font-size: 80%;
+}
+
+
+
+/****************SECTION NEWS****************/
+
+
+.section-news {
+    padding: 8% 10%;
+}
+
+.section-news .box1 {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px
+}
+
+.section-news .box2 {
+    border-radius: 10px
+}
+
+.news img {
+    border-radius: 10px;
+}
+
+.main-img {
+    margin-bottom: 20px;
+    height: 75%;
+}
+
+.section-news .news-title {
+    color: orange;
+    font-size: 90%;
+    margin-bottom: 15px;
+}
+
+.section-news .news-content {
+    margin-left: 20px;
+}
+
+.section-news .news-body {
+    color: gray;
+    font-size: 80%;
+}
+
+.btn-read-more {
+    position: absolute;
+    right: 40px;
+    bottom: -25px;
+    color: green;
+    font-size: 80%;
+    background-color: #f6f6f6;
+    border-radius: 20px;
+    margin: 6px;
+    width: 140px;
+    border: 1px solid #f3f3f3;
+    box-shadow: 1px 1px 1px 1px #fff;
+}
+
+.view-btn {
+    position: relative;
+    top: 50px;
+    color: green;
+    font-size: 90%;
+    background-color: #f3f3f3;
+    border-radius: 20px;
+    margin: 6px;
+    width: 180px;
+    border: 1px solid #f6f6f6;
+    box-shadow: 1px 1px 1px 1px #fff;
+}
+
+.top {
+    float: right;
+    transform: rotate(90deg);
+    color: green;
+}
+
+.top:hover {
+    color: darkgreen;
+    text-decoration: none;
+}
+
+.news {
+    display: flex;
+    padding: 10px;
+    height: 130px;
+    margin: 10px 0;
+    border-radius: 10px;
+}
+
+.news:hover {
+    background-color: #fff;
+    transition: all .3s;
+}
+
+.news-img {
+    height: 100px;
+
+}
+
+
+/************FOOTER SECTION***********/
+
+footer {
+    background-color: #5e5e5e;
+    color: #fff;
+    padding: 3%;
+}
+
+footer p {
+    font-size: 70%;
+}
+
+footer .col-md-3 {
+    border-right: 2px dotted green;
+}
+
+footer .col-md-3:last-child {
+    border: none;
+}
+
+.footer-nav .navbar-bottom {
+    padding: 5px;
+    background-color: green;
+}
+
+.footer-nav .navbar .navbar-nav .nav-item .nav-link {
+    font-size: 80%;
+    color: #f7f7f7;
+}
+.footer-nav .navbar .navbar-nav .nav-item .nav-link:hover {
+    color: #fff;
+}
+
+footer i {
+    color: green;
+    font-size: 150%;
+    margin-bottom: 5px;
+}
+
+
+
+@media (max-width:990px) {
+
+    .html {
+        font-size: 17px;
+    }
+
+    .my-navbar {
+        background-color: gray;
+        z-index: 4;
+    }
+
+    .offer {
+        position: relative;
+        left: 0;
+    }
+
+    .section-stats {
+        padding-top: 20%;
+    }
+
+
+}
+
+
+@media (max-width:680px) {
+
+    html {
+        font-size: 14px;
+    }
+
+
+    .logo-offer {
+        height: 200px;
+        width: 200px;
+        border-radius: 100%;
+    }
+
+    .section-news .box1 {
+        margin-bottom: 30px;
+    }
+
+    .section-news .view-btn {
+        top: 0px;
+    }
+
+    .top {
+        position: relative;
+        top: -30px;
+    }
+
+    .section-stats .box .col-md-3 {
+        padding: 20px;
+    }
+
+    .main-img {
+        height: auto;
+    }
+
+    .jumbotron a {
+
+        font-size: 240%;
+        line-height: 1.2
+    }
+
+    .jumbotron i {
+        font-size: 80%;
+    }
+
+
+    footer .col-md-3 {
+        border-right: none;
+    }
+
+
+}
